@@ -1,7 +1,7 @@
 {
 	"name": "diagnostic-related-information-sample",
-	"displayName": "Diagnostic Related Information Sample",
-	"description": "Diagnostic Related Information Sample",
+	"displayName": "Diagnostic Related Information Sample (MVC)",
+	"description": "Diagnostic Related Information Sample with MVC Architecture and CLI Tool",
 	"version": "0.0.1",
 	"publisher": "vscode-samples",
 	"private": true,
