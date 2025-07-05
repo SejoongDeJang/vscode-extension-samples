@@ -1,0 +1,45 @@
+{
+  "name": "diagnostic-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for managing diagnostic information",
+  "main": "dist/index.js",
+  "bin": {
+    "diagnostic-cli": "bin/diagnostic-cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "lint": "eslint src/**/*.ts",
+    "test": "jest",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "diagnostic",
+    "cli",
+    "code-analysis",
+    "vscode"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.0",
+    "fs-extra": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/inquirer": "^9.0.0",
+    "@types/fs-extra": "^11.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
